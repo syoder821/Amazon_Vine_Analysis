@@ -22,6 +22,8 @@ PySpark is used to perform the ETL process to extract the dataset, transform the
 
 ![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/AWS_RDS_instance.png)
 
+![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/PG_admin.png)
+
 ## Deliveriable 2 
 Pandas is used to determine if there is any bias toward favorable reviews from Vine members in the Wireless product dataset.
 
