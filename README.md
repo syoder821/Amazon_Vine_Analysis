@@ -22,6 +22,12 @@ PySpark is used to perform the ETL process to extract the dataset, transform the
 
 ![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/AWS_RDS_instance.png)
 
+![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/PG_admin_cust.png)
+
+![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/PG_admin_prod.png)
+
+![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/PG_admin_rev.png)
+
 ![Alt Text](https://github.com/syoder821/Amazon_Vine_Analysis/blob/main/Resources/PG_admin.png)
 
 ## Deliveriable 2 
