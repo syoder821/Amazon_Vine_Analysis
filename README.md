@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 # Overview of the analysis
-Since the intial work on the SellBy project was so successful, a new larger project has been assigned: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
+The scope of the project is to analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
 In this project, the team has access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products.  The dataset for wireless products was selected for analysis by the team and PySpark is used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, Pandas is used to determine if there is any bias toward favorable reviews from Vine members in the dataset. A summary of the analysis is generated for submission to the SellBy stakeholders.
 
@@ -51,5 +51,5 @@ Total the Vine and non-Vine data
 - What percentage of non-Vine reviews were 5 stars? 47.01% of non-Vine reviews recieved Five stars.  
 
 # Summary
-The results from the anaysis do not show any positivity bias for Five tar reviews in the Vine program.  The percentage of Five star reviews in the Vine program was 36.21% while the percentage of non_Vine reviews that recieved Five stars was ~ 11% higher at 47.01%.  Additional product categories could be examined in a similiar fashion to determine if this trend holds true.  Also, the results could be analyized further to look at the average review ratings and standard deviation to determine if Vine members give on average higher ratings vs. non-Vine memebers.  
+The results from the anaysis do not show any positivity bias for Five star reviews in the Vine program.  The percentage of Five star reviews in the Vine program was 36.21% while the percentage of non_Vine reviews that recieved Five stars was ~ 11% higher at 47.01%.  Additional product categories could be examined in a similiar fashion to determine if this trend holds true.  Also, the results could be analyized further to look at the average review ratings and standard deviation to determine if Vine members give on average higher ratings vs. non-Vine memebers.  
 
